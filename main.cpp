@@ -1,8 +1,11 @@
 #include <iostream>
 #include <glm/glm.hpp>
 #include <vector>
+#include <chrono>
+#include "Math.hpp"
 #include "Unit.hpp"
 #include "Sector.hpp"
+#include "Timer.hpp"
 
 Vector2 RotateVector2(Vector2 v, float angle)
 {
@@ -53,18 +56,34 @@ bool CheckBetweenUnitPair(Unit& source, const Unit& target, float degrees, float
     return true;
 }
 
+void AddPresetToMap(std::vector<Unit>& units, const Vector2& offset, uint32_t& currentID)
+{
+    units.emplace_back(Vector2(1 + offset.x, 1 + offset.y), Vector2(0.5, 0.5), currentID++);
+    units.emplace_back(Vector2(1 + offset.x, 2 + offset.y), Vector2(1, 0), currentID++);
+    units.emplace_back(Vector2(2 + offset.x, 2 + offset.y), Vector2(0.707, 0.707), currentID++);
+    units.emplace_back(Vector2(2 + offset.x, 1 + offset.y), Vector2(-1, 0), currentID++);
+}
+
 int main()
 {
     float degrees = 135.5;
     float distance = 2;
+    Timer executionTimer;
 
     std::vector<Unit> units;
     units.reserve(10000);
+
     // Somehow random units
+    uint32_t unitsCount = 10000;
     uint32_t id = 0;
-    units.emplace_back(Vector2(1, 1), Vector2(0, 1), id++);
-    units.emplace_back(Vector2(1, 2), Vector2(1, 0), id++);
-    units.emplace_back(Vector2(-5, -1), Vector2(0.707, 0.707), id++);
+    Vector2 offset(0, 0);
+    for (int i = 0; i < unitsCount / 4; i++)
+    {
+        AddPresetToMap(units, offset, id);
+        offset.x += 5.0f;
+        offset.y += 5.0f;
+    }
+
     // Sort vector
     std::sort(units.begin(), units.end(), [](const auto& u1, const auto& u2)
     {
@@ -99,6 +118,8 @@ int main()
 
     for (const auto& unit : units)
         std::cout << "Unit " << unit.id << " see " << unit.detectCount << std::endl;
+
+    std::cout << "Elapsed time: " << executionTimer.Elapsed() << std::endl;
 
     return 0;
 }
