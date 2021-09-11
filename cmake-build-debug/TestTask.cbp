@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TestTask"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\subs\;CMake Files\subs\glm\;CMake Files\subs\glm\cmake\;CMake Files\subs\glm\glm\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestTask">
+				<Option output="/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/TestTask" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/artamonovoleg/CLionProjects/TestTask/subs/glm"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestTask"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestTask/fast">
+				<Option output="/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/TestTask" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/artamonovoleg/CLionProjects/TestTask/subs/glm"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestTask/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/subs/glm"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/subs/glm/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/subs/glm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/subs/glm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/subs/glm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/artamonovoleg/CLionProjects/TestTask/main.cpp">
+			<Option target="TestTask"/>
+		</Unit>
+		<Unit filename="/Users/artamonovoleg/CLionProjects/TestTask/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/artamonovoleg/CLionProjects/TestTask/subs/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\subs\glm\"/>
+		</Unit>
+		<Unit filename="/Users/artamonovoleg/CLionProjects/TestTask/subs/glm/cmake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\subs\glm\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/artamonovoleg/CLionProjects/TestTask/subs/glm/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\subs\glm\glm\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

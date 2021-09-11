@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="glm"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\subs\;CMake Files\subs\glm\;CMake Files\subs\glm\cmake\;CMake Files\subs\glm\glm\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/subs/glm"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/subs/glm/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/subs/glm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/subs/glm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/subs/glm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/subs/glm"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/subs/glm/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/subs/glm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/subs/glm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/artamonovoleg/CLionProjects/TestTask/cmake-build-debug/subs/glm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/artamonovoleg/CLionProjects/TestTask/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/artamonovoleg/CLionProjects/TestTask/subs/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\subs\glm\"/>
+		</Unit>
+		<Unit filename="/Users/artamonovoleg/CLionProjects/TestTask/subs/glm/cmake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\subs\glm\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/artamonovoleg/CLionProjects/TestTask/subs/glm/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\subs\glm\glm\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
